@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+    align-items: center;
+    justify-content: center;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgb(255, 255, 255);
+}
+
+#parrafo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 246, 250);
+    margin-top:-15px;
+    font-size: 1rem;
+}
+#parrafo{
+    margin-top: 10px;
+}
+
+/*
+.global{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+h6{
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+h5{
+    color: red;
+    font-size: 2vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+table {
+    width: 100%; /* O el ancho que prefieras */
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f4f4f4;
+  }
+
+  h3{
+    background-color: rgb(242, 246, 250);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+.button{
+    font-size: 1500px;
+}
+
+#parrafo2{
+    display: flex;
+    width: 1000px;
+    margin-left: 20px;
+    font-size: 40px;
+}
